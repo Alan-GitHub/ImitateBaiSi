@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+       
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HYHMeWebController">
+            <connections>
+                <outlet property="contentView" destination="CKn-XX-xOI" id="90t-QZ-Cfa"/>
+                <outlet property="toolbar" destination="G6S-fc-oMA" id="lUF-BQ-va9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CKn-XX-xOI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G6S-fc-oMA">
+                            <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="RVd-mr-RsA"/>
+                            </constraints>
+                            <items>
+                                <barButtonItem image="left_arrow.png" width="17" id="f7L-iu-Avy"/>
+                                <barButtonItem image="right_arrow.png" id="ahM-3s-PZM"/>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="Ueg-IA-ga9"/>
+                                <barButtonItem systemItem="refresh" id="wEe-MI-ElY"/>
+                            </items>
+                        </toolbar>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1033605859" green="1" blue="0.23333702940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="G6S-fc-oMA" secondAttribute="trailing" id="PF9-p2-YLv"/>
+                        <constraint firstAttribute="bottom" secondItem="G6S-fc-oMA" secondAttribute="bottom" id="dbz-sr-4nX"/>
+                        <constraint firstItem="G6S-fc-oMA" firstAttribute="leading" secondItem="CKn-XX-xOI" secondAttribute="leading" id="e5Y-mh-heW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CKn-XX-xOI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Js-Ge-MH6"/>
+                <constraint firstItem="CKn-XX-xOI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QQB-RG-5VN"/>
+                <constraint firstAttribute="trailing" secondItem="CKn-XX-xOI" secondAttribute="trailing" id="Qmx-kQ-3G0"/>
+                <constraint firstAttribute="bottom" secondItem="CKn-XX-xOI" secondAttribute="bottom" id="iM3-Jk-ab2"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="left_arrow.png" width="30" height="30"/>
+        <image name="right_arrow.png" width="30" height="30"/>
+    </resources>
+</document>

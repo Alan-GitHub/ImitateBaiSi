@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F2109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="aFX-H0-a7T" customClass="HYHRightTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="278" height="66"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aFX-H0-a7T" id="MID-2F-tcg">
+                <rect key="frame" x="0.0" y="0.0" width="278" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wh9-F5-jN4">
+                        <rect key="frame" x="10" y="10" width="46" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="0qy-mC-Grk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARS-hk-qEn">
+                        <rect key="frame" x="66" y="10" width="38" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ER-oJ-13Y">
+                        <rect key="frame" x="66" y="39" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZO8-O3-51M">
+                        <rect key="frame" x="216" y="17" width="57" height="30"/>
+                        <color key="backgroundColor" red="0.1033605859" green="1" blue="0.23333702940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="+ 订阅">
+                            <color key="titleColor" red="1" green="0.2358801878" blue="0.17352887829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3ER-oJ-13Y" firstAttribute="leading" secondItem="wh9-F5-jN4" secondAttribute="trailing" constant="10" id="I0Z-ah-X6r"/>
+                    <constraint firstItem="3ER-oJ-13Y" firstAttribute="bottom" secondItem="wh9-F5-jN4" secondAttribute="bottom" id="Rzs-j7-nnV"/>
+                    <constraint firstItem="ARS-hk-qEn" firstAttribute="leading" secondItem="wh9-F5-jN4" secondAttribute="trailing" constant="10" id="WQi-Q5-ktF"/>
+                    <constraint firstAttribute="bottom" secondItem="wh9-F5-jN4" secondAttribute="bottom" constant="10" id="eix-r0-JqY"/>
+                    <constraint firstItem="wh9-F5-jN4" firstAttribute="leading" secondItem="MID-2F-tcg" secondAttribute="leading" constant="10" id="gvc-Yj-5D1"/>
+                    <constraint firstItem="ARS-hk-qEn" firstAttribute="top" secondItem="wh9-F5-jN4" secondAttribute="top" id="ibb-SU-mXz"/>
+                    <constraint firstItem="wh9-F5-jN4" firstAttribute="top" secondItem="MID-2F-tcg" secondAttribute="top" constant="10" id="yh0-n8-3Rn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerIcon" destination="wh9-F5-jN4" id="OBc-Th-Z7D"/>
+                <outlet property="nameLabel" destination="ARS-hk-qEn" id="5rT-v3-sJX"/>
+                <outlet property="numberLabel" destination="3ER-oJ-13Y" id="Zox-UP-kbE"/>
+            </connections>
+            <point key="canvasLocation" x="-337" y="85"/>
+        </tableViewCell>
+    </objects>
+</document>

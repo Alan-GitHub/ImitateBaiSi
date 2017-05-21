@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F094DCB1E98DEFA00A57B40 /* recommendLeft.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F094DCA1E98DEFA00A57B40 /* recommendLeft.plist */; };
+		2F094DCE1E9905F700A57B40 /* HYHRightTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F094DCD1E9905F700A57B40 /* HYHRightTable.m */; };
+		8F0102401EA1EE3F00C5ECFF /* HYHEssenceNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F01023F1EA1EE3F00C5ECFF /* HYHEssenceNavController.m */; };
+		8F01EE311EA30D2700A52206 /* HYHAllController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F01EE301EA30D2700A52206 /* HYHAllController.m */; };
+		8F022AB91E9D2D8C0034675F /* HYHLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F022AB81E9D2D8C0034675F /* HYHLoginRegisterView.m */; };
+		8F0269CF1E9250EB0067A28E /* HYHFriendshipController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0269CE1E9250EB0067A28E /* HYHFriendshipController.xib */; };
+		8F02EF1B1EA9E41E00AC2C77 /* HYHTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F02EF1A1EA9E41E00AC2C77 /* HYHTopic.m */; };
+		8F02EF1F1EAA449700AC2C77 /* HYHTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F02EF1D1EAA449700AC2C77 /* HYHTopicCell.m */; };
+		8F02EF201EAA449700AC2C77 /* HYHTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F02EF1E1EAA449700AC2C77 /* HYHTopicCell.xib */; };
+		8F0389A41EAAFEB900AB10A2 /* HYHMiddleVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0389A31EAAFEB900AB10A2 /* HYHMiddleVideoView.m */; };
+		8F0389A71EAAFEE500AB10A2 /* HYHMiddleVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0389A61EAAFEE500AB10A2 /* HYHMiddleVoiceView.m */; };
+		8F0389AA1EAAFEF800AB10A2 /* HYHMiddlePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0389A91EAAFEF800AB10A2 /* HYHMiddlePictureView.m */; };
+		8F0389AC1EAAFF0D00AB10A2 /* HYHMiddleVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0389AB1EAAFF0D00AB10A2 /* HYHMiddleVideoView.xib */; };
+		8F0389AE1EAAFF1F00AB10A2 /* HYHMiddleVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0389AD1EAAFF1F00AB10A2 /* HYHMiddleVoiceView.xib */; };
+		8F0389B01EAAFF3600AB10A2 /* HYHMiddlePictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0389AF1EAAFF3600AB10A2 /* HYHMiddlePictureView.xib */; };
+		8F038D2F1E967BCE00860AB9 /* HYHRecommendLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F038D2E1E967BCE00860AB9 /* HYHRecommendLeft.m */; };
+		8F041EE61E99B6820067E479 /* HYHRightTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F041EE51E99B6820067E479 /* HYHRightTableCell.xib */; };
+		8F041EE91E99B6D10067E479 /* HYHRightTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F041EE81E99B6D10067E479 /* HYHRightTableCell.m */; };
+		8F05509B1EA13669001CA060 /* HYHMeWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0550991EA13669001CA060 /* HYHMeWebController.m */; };
+		8F05509C1EA13669001CA060 /* HYHMeWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F05509A1EA13669001CA060 /* HYHMeWebController.xib */; };
+		8F11494D1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F11494B1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.m */; };
+		8F11494E1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F11494C1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.xib */; };
+		8F1742C71EA3145300916386 /* HYHVoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1742C61EA3145300916386 /* HYHVoiceController.m */; };
+		8F1742CA1EA3149100916386 /* HYHVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1742C91EA3149100916386 /* HYHVideoController.m */; };
+		8F1742CD1EA314A800916386 /* HYHPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1742CC1EA314A800916386 /* HYHPictureController.m */; };
+		8F1742D01EA314BD00916386 /* HYHWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1742CF1EA314BD00916386 /* HYHWordController.m */; };
+		8F2DA4AF1E9360F600DE7C9F /* HYHFriendshipNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2DA4AD1E9360F600DE7C9F /* HYHFriendshipNavController.m */; };
+		8F2DA4B31E93711600DE7C9F /* HYHFriendshipRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2DA4B21E93711600DE7C9F /* HYHFriendshipRecommendController.m */; };
+		8F2DA4E51E93ECF200DE7C9F /* HYHFriendshipRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2DA4E41E93ECF200DE7C9F /* HYHFriendshipRecommendController.xib */; };
+		8F30998C1E9D49B9006E03F2 /* HYHLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F30998B1E9D49B9006E03F2 /* HYHLoginRegisterView.xib */; };
+		8F3694C31E8018BB00878AD8 /* HYHADController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3694C11E8018BB00878AD8 /* HYHADController.m */; };
+		8F3694C41E8018BB00878AD8 /* HYHADController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3694C21E8018BB00878AD8 /* HYHADController.xib */; };
+		8F795AA61E7E77C700AC0B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F795AA31E7E77C700AC0B9B /* Main.storyboard */; };
+		8F821CB01E7E54A00091417E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F821CAF1E7E54A00091417E /* main.m */; };
+		8F821CB31E7E54A00091417E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F821CB21E7E54A00091417E /* AppDelegate.m */; };
+		8F821CBE1E7E54A00091417E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F821CBD1E7E54A00091417E /* Assets.xcassets */; };
+		8F821CC11E7E54A00091417E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F821CBF1E7E54A00091417E /* LaunchScreen.storyboard */; };
+		8F94F0F31E858480008EE8B5 /* HYHADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F94F0F21E858480008EE8B5 /* HYHADItem.m */; };
+		8FDF10901E7E82000025FF9F /* HYHEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF108F1E7E82000025FF9F /* HYHEssenceController.m */; };
+		8FDF10931E7E822B0025FF9F /* HYHLastestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF10921E7E822B0025FF9F /* HYHLastestController.m */; };
+		8FDF10991E7E82510025FF9F /* HYHFriendshipController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF10981E7E82510025FF9F /* HYHFriendshipController.m */; };
+		8FDF109C1E7E82600025FF9F /* HYHMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF109B1E7E82600025FF9F /* HYHMeController.m */; };
+		8FEBEF411EA1CE8C006562CE /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEBEF3F1EA1CE8C006562CE /* left_arrow.png */; };
+		8FEBEF421EA1CE8C006562CE /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEBEF401EA1CE8C006562CE /* right_arrow.png */; };
+		8FFFAEF11E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFAEEF1E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.m */; };
+		8FFFAEF21E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFAEF01E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.xib */; };
+		8FFFF8081E9FB84000E400E6 /* HYHMeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFF8071E9FB84000E400E6 /* HYHMeController.storyboard */; };
+		8FFFF80B1E9FBDDC00E400E6 /* HYHMeNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFF80A1E9FBDDC00E400E6 /* HYHMeNavController.m */; };
+		8FFFF80F1E9FD76000E400E6 /* HYHSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFF80D1E9FD76000E400E6 /* HYHSquareCell.m */; };
+		8FFFF8101E9FD76000E400E6 /* HYHSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFF80E1E9FD76000E400E6 /* HYHSquareCell.xib */; };
+		8FFFF8131E9FE20400E400E6 /* HYHMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFF8121E9FE20400E400E6 /* HYHMeSquare.m */; };
+		DB97BC14126131B2216BE19F /* libPods-ImitateBaiSi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9896F05106DA59717041505 /* libPods-ImitateBaiSi.a */; };
+		E72992121EC4BEF90041A604 /* HYHPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72992101EC4BEF90041A604 /* HYHPublishController.m */; settings = {ASSET_TAGS = (); }; };
+		E72992131EC4BEF90041A604 /* HYHPublishController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72992111EC4BEF90041A604 /* HYHPublishController.xib */; settings = {ASSET_TAGS = (); }; };
+		E72992161EC741540041A604 /* HYHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72992151EC741540041A604 /* HYHTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		E72992191EC7595B0041A604 /* HYHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E72992181EC7595B0041A604 /* HYHTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		E783FA8E1EB4F0D900566D60 /* HYHSeeBigPictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E783FA8D1EB4F0D900566D60 /* HYHSeeBigPictureController.xib */; settings = {ASSET_TAGS = (); }; };
+		E7A20BC31EB77EEE00C15DBB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A20BC21EB77EEE00C15DBB /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
+		E7EB17331EB4E6B30024C85C /* HYHSeeBigPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EB17321EB4E6B30024C85C /* HYHSeeBigPictureController.m */; settings = {ASSET_TAGS = (); }; };
+		E7EB5AA41EBB330E0008171F /* HYHTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EB5AA31EBB330E0008171F /* HYHTopicController.m */; settings = {ASSET_TAGS = (); }; };
+		E7EB5AA71EBB6FFD0008171F /* CustomMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EB5AA61EBB6FFD0008171F /* CustomMoviePlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E7EB5AAA1EBB763C0008171F /* HYHPlayVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EB5AA91EBB763C0008171F /* HYHPlayVideoController.m */; settings = {ASSET_TAGS = (); }; };
+		E7EC3FEE1EC85DD600CD5C4F /* HYHLastestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EC3FED1EC85DD600CD5C4F /* HYHLastestView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185F6537E0239C36B2C680CA /* Pods-ImitateBaiSi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBaiSi.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBaiSi/Pods-ImitateBaiSi.release.xcconfig"; sourceTree = "<group>"; };
+		2F094DCA1E98DEFA00A57B40 /* recommendLeft.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recommendLeft.plist; sourceTree = "<group>"; };
+		2F094DCC1E9905F700A57B40 /* HYHRightTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHRightTable.h; sourceTree = "<group>"; };
+		2F094DCD1E9905F700A57B40 /* HYHRightTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHRightTable.m; sourceTree = "<group>"; };
+		8F01023E1EA1EE3F00C5ECFF /* HYHEssenceNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHEssenceNavController.h; sourceTree = "<group>"; };
+		8F01023F1EA1EE3F00C5ECFF /* HYHEssenceNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHEssenceNavController.m; sourceTree = "<group>"; };
+		8F01EE2F1EA30D2700A52206 /* HYHAllController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHAllController.h; sourceTree = "<group>"; };
+		8F01EE301EA30D2700A52206 /* HYHAllController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHAllController.m; sourceTree = "<group>"; };
+		8F022AB71E9D2D8C0034675F /* HYHLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHLoginRegisterView.h; sourceTree = "<group>"; };
+		8F022AB81E9D2D8C0034675F /* HYHLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHLoginRegisterView.m; sourceTree = "<group>"; };
+		8F0269CE1E9250EB0067A28E /* HYHFriendshipController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHFriendshipController.xib; sourceTree = "<group>"; };
+		8F02EF191EA9E41E00AC2C77 /* HYHTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHTopic.h; sourceTree = "<group>"; };
+		8F02EF1A1EA9E41E00AC2C77 /* HYHTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHTopic.m; sourceTree = "<group>"; };
+		8F02EF1C1EAA449700AC2C77 /* HYHTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHTopicCell.h; sourceTree = "<group>"; };
+		8F02EF1D1EAA449700AC2C77 /* HYHTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHTopicCell.m; sourceTree = "<group>"; };
+		8F02EF1E1EAA449700AC2C77 /* HYHTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHTopicCell.xib; sourceTree = "<group>"; };
+		8F0389A21EAAFEB900AB10A2 /* HYHMiddleVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMiddleVideoView.h; sourceTree = "<group>"; };
+		8F0389A31EAAFEB900AB10A2 /* HYHMiddleVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMiddleVideoView.m; sourceTree = "<group>"; };
+		8F0389A51EAAFEE500AB10A2 /* HYHMiddleVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMiddleVoiceView.h; sourceTree = "<group>"; };
+		8F0389A61EAAFEE500AB10A2 /* HYHMiddleVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMiddleVoiceView.m; sourceTree = "<group>"; };
+		8F0389A81EAAFEF800AB10A2 /* HYHMiddlePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMiddlePictureView.h; sourceTree = "<group>"; };
+		8F0389A91EAAFEF800AB10A2 /* HYHMiddlePictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMiddlePictureView.m; sourceTree = "<group>"; };
+		8F0389AB1EAAFF0D00AB10A2 /* HYHMiddleVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHMiddleVideoView.xib; sourceTree = "<group>"; };
+		8F0389AD1EAAFF1F00AB10A2 /* HYHMiddleVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHMiddleVoiceView.xib; sourceTree = "<group>"; };
+		8F0389AF1EAAFF3600AB10A2 /* HYHMiddlePictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHMiddlePictureView.xib; sourceTree = "<group>"; };
+		8F038D2D1E967BCE00860AB9 /* HYHRecommendLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHRecommendLeft.h; sourceTree = "<group>"; };
+		8F038D2E1E967BCE00860AB9 /* HYHRecommendLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHRecommendLeft.m; sourceTree = "<group>"; };
+		8F041EE51E99B6820067E479 /* HYHRightTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHRightTableCell.xib; sourceTree = "<group>"; };
+		8F041EE71E99B6D10067E479 /* HYHRightTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHRightTableCell.h; sourceTree = "<group>"; };
+		8F041EE81E99B6D10067E479 /* HYHRightTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHRightTableCell.m; sourceTree = "<group>"; };
+		8F0550981EA13669001CA060 /* HYHMeWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMeWebController.h; sourceTree = "<group>"; };
+		8F0550991EA13669001CA060 /* HYHMeWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMeWebController.m; sourceTree = "<group>"; };
+		8F05509A1EA13669001CA060 /* HYHMeWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHMeWebController.xib; sourceTree = "<group>"; };
+		8F11494A1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHFriendshipLoginSelectController.h; sourceTree = "<group>"; };
+		8F11494B1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHFriendshipLoginSelectController.m; sourceTree = "<group>"; };
+		8F11494C1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHFriendshipLoginSelectController.xib; sourceTree = "<group>"; };
+		8F1742C51EA3145300916386 /* HYHVoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHVoiceController.h; sourceTree = "<group>"; };
+		8F1742C61EA3145300916386 /* HYHVoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHVoiceController.m; sourceTree = "<group>"; };
+		8F1742C81EA3149100916386 /* HYHVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHVideoController.h; sourceTree = "<group>"; };
+		8F1742C91EA3149100916386 /* HYHVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHVideoController.m; sourceTree = "<group>"; };
+		8F1742CB1EA314A800916386 /* HYHPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHPictureController.h; sourceTree = "<group>"; };
+		8F1742CC1EA314A800916386 /* HYHPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHPictureController.m; sourceTree = "<group>"; };
+		8F1742CE1EA314BD00916386 /* HYHWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHWordController.h; sourceTree = "<group>"; };
+		8F1742CF1EA314BD00916386 /* HYHWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHWordController.m; sourceTree = "<group>"; };
+		8F2DA4AC1E9360F600DE7C9F /* HYHFriendshipNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHFriendshipNavController.h; sourceTree = "<group>"; };
+		8F2DA4AD1E9360F600DE7C9F /* HYHFriendshipNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHFriendshipNavController.m; sourceTree = "<group>"; };
+		8F2DA4B11E93711600DE7C9F /* HYHFriendshipRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHFriendshipRecommendController.h; sourceTree = "<group>"; };
+		8F2DA4B21E93711600DE7C9F /* HYHFriendshipRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHFriendshipRecommendController.m; sourceTree = "<group>"; };
+		8F2DA4E41E93ECF200DE7C9F /* HYHFriendshipRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHFriendshipRecommendController.xib; sourceTree = "<group>"; };
+		8F30998B1E9D49B9006E03F2 /* HYHLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHLoginRegisterView.xib; sourceTree = "<group>"; };
+		8F3694C01E8018BB00878AD8 /* HYHADController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHADController.h; sourceTree = "<group>"; };
+		8F3694C11E8018BB00878AD8 /* HYHADController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHADController.m; sourceTree = "<group>"; };
+		8F3694C21E8018BB00878AD8 /* HYHADController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHADController.xib; sourceTree = "<group>"; };
+		8F795AA41E7E77C700AC0B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		8F821CAB1E7E54A00091417E /* ImitateBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitateBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F821CAF1E7E54A00091417E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F821CB11E7E54A00091417E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F821CB21E7E54A00091417E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F821CBD1E7E54A00091417E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F821CC01E7E54A00091417E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F821CC21E7E54A00091417E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F94F0F11E858480008EE8B5 /* HYHADItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHADItem.h; sourceTree = "<group>"; };
+		8F94F0F21E858480008EE8B5 /* HYHADItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHADItem.m; sourceTree = "<group>"; };
+		8FDF108E1E7E82000025FF9F /* HYHEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHEssenceController.h; sourceTree = "<group>"; };
+		8FDF108F1E7E82000025FF9F /* HYHEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHEssenceController.m; sourceTree = "<group>"; };
+		8FDF10911E7E822B0025FF9F /* HYHLastestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHLastestController.h; sourceTree = "<group>"; };
+		8FDF10921E7E822B0025FF9F /* HYHLastestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHLastestController.m; sourceTree = "<group>"; };
+		8FDF10971E7E82510025FF9F /* HYHFriendshipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHFriendshipController.h; sourceTree = "<group>"; };
+		8FDF10981E7E82510025FF9F /* HYHFriendshipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHFriendshipController.m; sourceTree = "<group>"; };
+		8FDF109A1E7E82600025FF9F /* HYHMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMeController.h; sourceTree = "<group>"; };
+		8FDF109B1E7E82600025FF9F /* HYHMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMeController.m; sourceTree = "<group>"; };
+		8FEBEF3F1EA1CE8C006562CE /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_arrow.png; path = Assets.xcassets/left_arrow.png; sourceTree = "<group>"; };
+		8FEBEF401EA1CE8C006562CE /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right_arrow.png; path = Assets.xcassets/right_arrow.png; sourceTree = "<group>"; };
+		8FFFAEEE1E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHFriendshipLoginRegisterController.h; sourceTree = "<group>"; };
+		8FFFAEEF1E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHFriendshipLoginRegisterController.m; sourceTree = "<group>"; };
+		8FFFAEF01E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHFriendshipLoginRegisterController.xib; sourceTree = "<group>"; };
+		8FFFF8071E9FB84000E400E6 /* HYHMeController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HYHMeController.storyboard; sourceTree = "<group>"; };
+		8FFFF8091E9FBDDC00E400E6 /* HYHMeNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMeNavController.h; sourceTree = "<group>"; };
+		8FFFF80A1E9FBDDC00E400E6 /* HYHMeNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMeNavController.m; sourceTree = "<group>"; };
+		8FFFF80C1E9FD76000E400E6 /* HYHSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHSquareCell.h; sourceTree = "<group>"; };
+		8FFFF80D1E9FD76000E400E6 /* HYHSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHSquareCell.m; sourceTree = "<group>"; };
+		8FFFF80E1E9FD76000E400E6 /* HYHSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHSquareCell.xib; sourceTree = "<group>"; };
+		8FFFF8111E9FE20400E400E6 /* HYHMeSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHMeSquare.h; sourceTree = "<group>"; };
+		8FFFF8121E9FE20400E400E6 /* HYHMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHMeSquare.m; sourceTree = "<group>"; };
+		919A0109CE91D2B7CD1C12A7 /* Pods-ImitateBaiSi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImitateBaiSi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImitateBaiSi/Pods-ImitateBaiSi.debug.xcconfig"; sourceTree = "<group>"; };
+		E729920F1EC4BEF90041A604 /* HYHPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHPublishController.h; sourceTree = "<group>"; };
+		E72992101EC4BEF90041A604 /* HYHPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHPublishController.m; sourceTree = "<group>"; };
+		E72992111EC4BEF90041A604 /* HYHPublishController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHPublishController.xib; sourceTree = "<group>"; };
+		E72992141EC741540041A604 /* HYHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHTabBarController.h; sourceTree = "<group>"; };
+		E72992151EC741540041A604 /* HYHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHTabBarController.m; sourceTree = "<group>"; };
+		E72992171EC7595B0041A604 /* HYHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHTabBar.h; sourceTree = "<group>"; };
+		E72992181EC7595B0041A604 /* HYHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHTabBar.m; sourceTree = "<group>"; };
+		E783FA8D1EB4F0D900566D60 /* HYHSeeBigPictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHSeeBigPictureController.xib; sourceTree = "<group>"; };
+		E7A20BC11EB77EEE00C15DBB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E7A20BC21EB77EEE00C15DBB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E7EB17311EB4E6B30024C85C /* HYHSeeBigPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHSeeBigPictureController.h; sourceTree = "<group>"; };
+		E7EB17321EB4E6B30024C85C /* HYHSeeBigPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHSeeBigPictureController.m; sourceTree = "<group>"; };
+		E7EB5AA21EBB330E0008171F /* HYHTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHTopicController.h; sourceTree = "<group>"; };
+		E7EB5AA31EBB330E0008171F /* HYHTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHTopicController.m; sourceTree = "<group>"; };
+		E7EB5AA51EBB6FFD0008171F /* CustomMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMoviePlayerViewController.h; sourceTree = "<group>"; };
+		E7EB5AA61EBB6FFD0008171F /* CustomMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMoviePlayerViewController.m; sourceTree = "<group>"; };
+		E7EB5AA81EBB763C0008171F /* HYHPlayVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHPlayVideoController.h; sourceTree = "<group>"; };
+		E7EB5AA91EBB763C0008171F /* HYHPlayVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHPlayVideoController.m; sourceTree = "<group>"; };
+		E7EC3FEC1EC85DD600CD5C4F /* HYHLastestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHLastestView.h; sourceTree = "<group>"; };
+		E7EC3FED1EC85DD600CD5C4F /* HYHLastestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHLastestView.m; sourceTree = "<group>"; };
+		F9896F05106DA59717041505 /* libPods-ImitateBaiSi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImitateBaiSi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F821CA81E7E549F0091417E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB97BC14126131B2216BE19F /* libPods-ImitateBaiSi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418185E91FFB41A9C5C58DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9896F05106DA59717041505 /* libPods-ImitateBaiSi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F3694BC1E80183300878AD8 /* Advertisement(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				8F3694BF1E80186F00878AD8 /* Controller */,
+				8F3694BE1E80185D00878AD8 /* Model */,
+				8F3694BD1E80185600878AD8 /* View */,
+			);
+			name = "Advertisement(广告)";
+			sourceTree = "<group>";
+		};
+		8F3694BD1E80185600878AD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8F3694BE1E80185D00878AD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F94F0F11E858480008EE8B5 /* HYHADItem.h */,
+				8F94F0F21E858480008EE8B5 /* HYHADItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8F3694BF1E80186F00878AD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F3694C01E8018BB00878AD8 /* HYHADController.h */,
+				8F3694C11E8018BB00878AD8 /* HYHADController.m */,
+				8F3694C21E8018BB00878AD8 /* HYHADController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8F821CA21E7E549F0091417E = {
+			isa = PBXGroup;
+			children = (
+				8F821CAD1E7E54A00091417E /* ImitateBaiSi */,
+				8F821CAC1E7E54A00091417E /* Products */,
+				C93CC26370D0A27BDD247EE7 /* Pods */,
+				418185E91FFB41A9C5C58DA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F821CAC1E7E54A00091417E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F821CAB1E7E54A00091417E /* ImitateBaiSi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F821CAD1E7E54A00091417E /* ImitateBaiSi */ = {
+			isa = PBXGroup;
+			children = (
+				8F3694BC1E80183300878AD8 /* Advertisement(广告) */,
+				8F821CC81E7E555B0091417E /* Essence(精华) */,
+				8F821CC91E7E559D0091417E /* Lastest(最新) */,
+				8F821CCA1E7E55CE0091417E /* Publish(发布) */,
+				8F821CCC1E7E55FA0091417E /* Friendship( 关注) */,
+				8F821CCB1E7E55F30091417E /* Me(我) */,
+				8F821CCD1E7E569D0091417E /* Other(其他) */,
+				8F821CCE1E7E56D50091417E /* Resources(资源) */,
+				8F821CAE1E7E54A00091417E /* Supporting Files */,
+			);
+			path = ImitateBaiSi;
+			sourceTree = "<group>";
+		};
+		8F821CAE1E7E54A00091417E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F094DCA1E98DEFA00A57B40 /* recommendLeft.plist */,
+				8F821CAF1E7E54A00091417E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F821CC81E7E555B0091417E /* Essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF107F1E7E7FEC0025FF9F /* Controller */,
+				8FDF10811E7E80070025FF9F /* Model */,
+				8FDF10801E7E7FFE0025FF9F /* View */,
+			);
+			name = "Essence(精华)";
+			sourceTree = "<group>";
+		};
+		8F821CC91E7E559D0091417E /* Lastest(最新) */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF10821E7E80230025FF9F /* Controller */,
+				8FDF10841E7E802F0025FF9F /* Model */,
+				8FDF10831E7E802B0025FF9F /* View */,
+			);
+			name = "Lastest(最新)";
+			sourceTree = "<group>";
+		};
+		8F821CCA1E7E55CE0091417E /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF10871E7E80400025FF9F /* Controller */,
+				8FDF10861E7E803C0025FF9F /* View */,
+				8FDF10851E7E80350025FF9F /* Model */,
+			);
+			name = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+		8F821CCB1E7E55F30091417E /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF108D1E7E80640025FF9F /* Controller */,
+				8FDF108C1E7E805A0025FF9F /* Model */,
+				8FDF108B1E7E80560025FF9F /* View */,
+			);
+			name = "Me(我)";
+			sourceTree = "<group>";
+		};
+		8F821CCC1E7E55FA0091417E /* Friendship( 关注) */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF10881E7E80460025FF9F /* Controller */,
+				8FDF108A1E7E804F0025FF9F /* Model */,
+				8FDF10891E7E804B0025FF9F /* View */,
+			);
+			name = "Friendship( 关注)";
+			sourceTree = "<group>";
+		};
+		8F821CCD1E7E569D0091417E /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				8F821CB21E7E54A00091417E /* AppDelegate.m */,
+				8F821CB11E7E54A00091417E /* AppDelegate.h */,
+				E7A20BC11EB77EEE00C15DBB /* UIView+Frame.h */,
+				E7A20BC21EB77EEE00C15DBB /* UIView+Frame.m */,
+				E72992141EC741540041A604 /* HYHTabBarController.h */,
+				E72992151EC741540041A604 /* HYHTabBarController.m */,
+				E72992171EC7595B0041A604 /* HYHTabBar.h */,
+				E72992181EC7595B0041A604 /* HYHTabBar.m */,
+			);
+			name = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		8F821CCE1E7E56D50091417E /* Resources(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				8F821CBD1E7E54A00091417E /* Assets.xcassets */,
+				8FEBEF3F1EA1CE8C006562CE /* left_arrow.png */,
+				8FEBEF401EA1CE8C006562CE /* right_arrow.png */,
+				8F795AA31E7E77C700AC0B9B /* Main.storyboard */,
+				8F821CBF1E7E54A00091417E /* LaunchScreen.storyboard */,
+				8F821CC21E7E54A00091417E /* Info.plist */,
+			);
+			name = "Resources(资源)";
+			sourceTree = "<group>";
+		};
+		8FDF107F1E7E7FEC0025FF9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF108E1E7E82000025FF9F /* HYHEssenceController.h */,
+				8FDF108F1E7E82000025FF9F /* HYHEssenceController.m */,
+				8F01023E1EA1EE3F00C5ECFF /* HYHEssenceNavController.h */,
+				8F01023F1EA1EE3F00C5ECFF /* HYHEssenceNavController.m */,
+				E7EB17311EB4E6B30024C85C /* HYHSeeBigPictureController.h */,
+				E7EB17321EB4E6B30024C85C /* HYHSeeBigPictureController.m */,
+				E783FA8D1EB4F0D900566D60 /* HYHSeeBigPictureController.xib */,
+				E7EB5AA51EBB6FFD0008171F /* CustomMoviePlayerViewController.h */,
+				E7EB5AA61EBB6FFD0008171F /* CustomMoviePlayerViewController.m */,
+				E7EB5AA81EBB763C0008171F /* HYHPlayVideoController.h */,
+				E7EB5AA91EBB763C0008171F /* HYHPlayVideoController.m */,
+				E7EB5AA11EBB30D20008171F /* topic */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FDF10801E7E7FFE0025FF9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F02EF1C1EAA449700AC2C77 /* HYHTopicCell.h */,
+				8F02EF1D1EAA449700AC2C77 /* HYHTopicCell.m */,
+				8F02EF1E1EAA449700AC2C77 /* HYHTopicCell.xib */,
+				8F0389A21EAAFEB900AB10A2 /* HYHMiddleVideoView.h */,
+				8F0389A31EAAFEB900AB10A2 /* HYHMiddleVideoView.m */,
+				8F0389AB1EAAFF0D00AB10A2 /* HYHMiddleVideoView.xib */,
+				8F0389A51EAAFEE500AB10A2 /* HYHMiddleVoiceView.h */,
+				8F0389A61EAAFEE500AB10A2 /* HYHMiddleVoiceView.m */,
+				8F0389AD1EAAFF1F00AB10A2 /* HYHMiddleVoiceView.xib */,
+				8F0389A81EAAFEF800AB10A2 /* HYHMiddlePictureView.h */,
+				8F0389A91EAAFEF800AB10A2 /* HYHMiddlePictureView.m */,
+				8F0389AF1EAAFF3600AB10A2 /* HYHMiddlePictureView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FDF10811E7E80070025FF9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F02EF191EA9E41E00AC2C77 /* HYHTopic.h */,
+				8F02EF1A1EA9E41E00AC2C77 /* HYHTopic.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDF10821E7E80230025FF9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF10911E7E822B0025FF9F /* HYHLastestController.h */,
+				8FDF10921E7E822B0025FF9F /* HYHLastestController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FDF10831E7E802B0025FF9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7EC3FEC1EC85DD600CD5C4F /* HYHLastestView.h */,
+				E7EC3FED1EC85DD600CD5C4F /* HYHLastestView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FDF10841E7E802F0025FF9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDF10851E7E80350025FF9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDF10861E7E803C0025FF9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FDF10871E7E80400025FF9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E729920F1EC4BEF90041A604 /* HYHPublishController.h */,
+				E72992101EC4BEF90041A604 /* HYHPublishController.m */,
+				E72992111EC4BEF90041A604 /* HYHPublishController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FDF10881E7E80460025FF9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF10971E7E82510025FF9F /* HYHFriendshipController.h */,
+				8FDF10981E7E82510025FF9F /* HYHFriendshipController.m */,
+				8F0269CE1E9250EB0067A28E /* HYHFriendshipController.xib */,
+				8F2DA4AC1E9360F600DE7C9F /* HYHFriendshipNavController.h */,
+				8F2DA4AD1E9360F600DE7C9F /* HYHFriendshipNavController.m */,
+				8F2DA4B11E93711600DE7C9F /* HYHFriendshipRecommendController.h */,
+				8F2DA4B21E93711600DE7C9F /* HYHFriendshipRecommendController.m */,
+				8F2DA4E41E93ECF200DE7C9F /* HYHFriendshipRecommendController.xib */,
+				8FFFAEEE1E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.h */,
+				8FFFAEEF1E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.m */,
+				8FFFAEF01E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.xib */,
+				8F11494A1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.h */,
+				8F11494B1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.m */,
+				8F11494C1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FDF10891E7E804B0025FF9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F041EE51E99B6820067E479 /* HYHRightTableCell.xib */,
+				8F041EE71E99B6D10067E479 /* HYHRightTableCell.h */,
+				8F041EE81E99B6D10067E479 /* HYHRightTableCell.m */,
+				8F022AB71E9D2D8C0034675F /* HYHLoginRegisterView.h */,
+				8F022AB81E9D2D8C0034675F /* HYHLoginRegisterView.m */,
+				8F30998B1E9D49B9006E03F2 /* HYHLoginRegisterView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FDF108A1E7E804F0025FF9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F038D2D1E967BCE00860AB9 /* HYHRecommendLeft.h */,
+				8F038D2E1E967BCE00860AB9 /* HYHRecommendLeft.m */,
+				2F094DCC1E9905F700A57B40 /* HYHRightTable.h */,
+				2F094DCD1E9905F700A57B40 /* HYHRightTable.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDF108B1E7E80560025FF9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FFFF80C1E9FD76000E400E6 /* HYHSquareCell.h */,
+				8FFFF80D1E9FD76000E400E6 /* HYHSquareCell.m */,
+				8FFFF80E1E9FD76000E400E6 /* HYHSquareCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FDF108C1E7E805A0025FF9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FFFF8111E9FE20400E400E6 /* HYHMeSquare.h */,
+				8FFFF8121E9FE20400E400E6 /* HYHMeSquare.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDF108D1E7E80640025FF9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF109A1E7E82600025FF9F /* HYHMeController.h */,
+				8FDF109B1E7E82600025FF9F /* HYHMeController.m */,
+				8FFFF8071E9FB84000E400E6 /* HYHMeController.storyboard */,
+				8FFFF8091E9FBDDC00E400E6 /* HYHMeNavController.h */,
+				8FFFF80A1E9FBDDC00E400E6 /* HYHMeNavController.m */,
+				8F0550981EA13669001CA060 /* HYHMeWebController.h */,
+				8F0550991EA13669001CA060 /* HYHMeWebController.m */,
+				8F05509A1EA13669001CA060 /* HYHMeWebController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C93CC26370D0A27BDD247EE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919A0109CE91D2B7CD1C12A7 /* Pods-ImitateBaiSi.debug.xcconfig */,
+				185F6537E0239C36B2C680CA /* Pods-ImitateBaiSi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7EB5AA11EBB30D20008171F /* topic */ = {
+			isa = PBXGroup;
+			children = (
+				E7EB5AA21EBB330E0008171F /* HYHTopicController.h */,
+				E7EB5AA31EBB330E0008171F /* HYHTopicController.m */,
+				8F01EE2F1EA30D2700A52206 /* HYHAllController.h */,
+				8F01EE301EA30D2700A52206 /* HYHAllController.m */,
+				8F1742C81EA3149100916386 /* HYHVideoController.h */,
+				8F1742C91EA3149100916386 /* HYHVideoController.m */,
+				8F1742C51EA3145300916386 /* HYHVoiceController.h */,
+				8F1742C61EA3145300916386 /* HYHVoiceController.m */,
+				8F1742CB1EA314A800916386 /* HYHPictureController.h */,
+				8F1742CC1EA314A800916386 /* HYHPictureController.m */,
+				8F1742CE1EA314BD00916386 /* HYHWordController.h */,
+				8F1742CF1EA314BD00916386 /* HYHWordController.m */,
+			);
+			name = topic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F821CAA1E7E549F0091417E /* ImitateBaiSi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F821CC51E7E54A00091417E /* Build configuration list for PBXNativeTarget "ImitateBaiSi" */;
+			buildPhases = (
+				7D5CF03CCDBEC686EF71A26B /* [CP] Check Pods Manifest.lock */,
+				8F821CA71E7E549F0091417E /* Sources */,
+				8F821CA81E7E549F0091417E /* Frameworks */,
+				8F821CA91E7E549F0091417E /* Resources */,
+				BCF6016B77153B10151A7F07 /* [CP] Embed Pods Frameworks */,
+				1C988E0A3B48AAC55C192783 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImitateBaiSi;
+			productName = ImitateBaiSi;
+			productReference = 8F821CAB1E7E54A00091417E /* ImitateBaiSi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F821CA31E7E549F0091417E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYH;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HYH;
+				TargetAttributes = {
+					8F821CAA1E7E549F0091417E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6NC35YNKT4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F821CA61E7E549F0091417E /* Build configuration list for PBXProject "ImitateBaiSi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F821CA21E7E549F0091417E;
+			productRefGroup = 8F821CAC1E7E54A00091417E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F821CAA1E7E549F0091417E /* ImitateBaiSi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F821CA91E7E549F0091417E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0389B01EAAFF3600AB10A2 /* HYHMiddlePictureView.xib in Resources */,
+				8F0389AE1EAAFF1F00AB10A2 /* HYHMiddleVoiceView.xib in Resources */,
+				8FEBEF411EA1CE8C006562CE /* left_arrow.png in Resources */,
+				8F2DA4E51E93ECF200DE7C9F /* HYHFriendshipRecommendController.xib in Resources */,
+				8FEBEF421EA1CE8C006562CE /* right_arrow.png in Resources */,
+				8F0269CF1E9250EB0067A28E /* HYHFriendshipController.xib in Resources */,
+				8F02EF201EAA449700AC2C77 /* HYHTopicCell.xib in Resources */,
+				E783FA8E1EB4F0D900566D60 /* HYHSeeBigPictureController.xib in Resources */,
+				8F0389AC1EAAFF0D00AB10A2 /* HYHMiddleVideoView.xib in Resources */,
+				2F094DCB1E98DEFA00A57B40 /* recommendLeft.plist in Resources */,
+				8F821CC11E7E54A00091417E /* LaunchScreen.storyboard in Resources */,
+				8F05509C1EA13669001CA060 /* HYHMeWebController.xib in Resources */,
+				E72992131EC4BEF90041A604 /* HYHPublishController.xib in Resources */,
+				8F11494E1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.xib in Resources */,
+				8FFFF8081E9FB84000E400E6 /* HYHMeController.storyboard in Resources */,
+				8FFFAEF21E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.xib in Resources */,
+				8F041EE61E99B6820067E479 /* HYHRightTableCell.xib in Resources */,
+				8FFFF8101E9FD76000E400E6 /* HYHSquareCell.xib in Resources */,
+				8F821CBE1E7E54A00091417E /* Assets.xcassets in Resources */,
+				8F3694C41E8018BB00878AD8 /* HYHADController.xib in Resources */,
+				8F795AA61E7E77C700AC0B9B /* Main.storyboard in Resources */,
+				8F30998C1E9D49B9006E03F2 /* HYHLoginRegisterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C988E0A3B48AAC55C192783 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitateBaiSi/Pods-ImitateBaiSi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5CF03CCDBEC686EF71A26B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF6016B77153B10151A7F07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImitateBaiSi/Pods-ImitateBaiSi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F821CA71E7E549F0091417E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F038D2F1E967BCE00860AB9 /* HYHRecommendLeft.m in Sources */,
+				8F2DA4B31E93711600DE7C9F /* HYHFriendshipRecommendController.m in Sources */,
+				E72992191EC7595B0041A604 /* HYHTabBar.m in Sources */,
+				8F0389A41EAAFEB900AB10A2 /* HYHMiddleVideoView.m in Sources */,
+				E72992121EC4BEF90041A604 /* HYHPublishController.m in Sources */,
+				E7A20BC31EB77EEE00C15DBB /* UIView+Frame.m in Sources */,
+				8F2DA4AF1E9360F600DE7C9F /* HYHFriendshipNavController.m in Sources */,
+				E7EB5AAA1EBB763C0008171F /* HYHPlayVideoController.m in Sources */,
+				8F01EE311EA30D2700A52206 /* HYHAllController.m in Sources */,
+				8F0102401EA1EE3F00C5ECFF /* HYHEssenceNavController.m in Sources */,
+				8FDF10901E7E82000025FF9F /* HYHEssenceController.m in Sources */,
+				8F821CB31E7E54A00091417E /* AppDelegate.m in Sources */,
+				E72992161EC741540041A604 /* HYHTabBarController.m in Sources */,
+				8FFFF80B1E9FBDDC00E400E6 /* HYHMeNavController.m in Sources */,
+				8FDF10931E7E822B0025FF9F /* HYHLastestController.m in Sources */,
+				8F02EF1B1EA9E41E00AC2C77 /* HYHTopic.m in Sources */,
+				8F821CB01E7E54A00091417E /* main.m in Sources */,
+				8FFFAEF11E9A8E8800B4F84A /* HYHFriendshipLoginRegisterController.m in Sources */,
+				E7EB5AA41EBB330E0008171F /* HYHTopicController.m in Sources */,
+				8F11494D1E9BCEC1006DB09C /* HYHFriendshipLoginSelectController.m in Sources */,
+				8F94F0F31E858480008EE8B5 /* HYHADItem.m in Sources */,
+				8FFFF80F1E9FD76000E400E6 /* HYHSquareCell.m in Sources */,
+				8F0389AA1EAAFEF800AB10A2 /* HYHMiddlePictureView.m in Sources */,
+				8F1742D01EA314BD00916386 /* HYHWordController.m in Sources */,
+				8FDF10991E7E82510025FF9F /* HYHFriendshipController.m in Sources */,
+				8FFFF8131E9FE20400E400E6 /* HYHMeSquare.m in Sources */,
+				E7EB5AA71EBB6FFD0008171F /* CustomMoviePlayerViewController.m in Sources */,
+				8F3694C31E8018BB00878AD8 /* HYHADController.m in Sources */,
+				8F1742CD1EA314A800916386 /* HYHPictureController.m in Sources */,
+				8F05509B1EA13669001CA060 /* HYHMeWebController.m in Sources */,
+				8F1742C71EA3145300916386 /* HYHVoiceController.m in Sources */,
+				8F0389A71EAAFEE500AB10A2 /* HYHMiddleVoiceView.m in Sources */,
+				8F02EF1F1EAA449700AC2C77 /* HYHTopicCell.m in Sources */,
+				8F022AB91E9D2D8C0034675F /* HYHLoginRegisterView.m in Sources */,
+				E7EB17331EB4E6B30024C85C /* HYHSeeBigPictureController.m in Sources */,
+				8F1742CA1EA3149100916386 /* HYHVideoController.m in Sources */,
+				2F094DCE1E9905F700A57B40 /* HYHRightTable.m in Sources */,
+				8FDF109C1E7E82600025FF9F /* HYHMeController.m in Sources */,
+				8F041EE91E99B6D10067E479 /* HYHRightTableCell.m in Sources */,
+				E7EC3FEE1EC85DD600CD5C4F /* HYHLastestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F795AA31E7E77C700AC0B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F795AA41E7E77C700AC0B9B /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		8F821CBF1E7E54A00091417E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F821CC01E7E54A00091417E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F821CC31E7E54A00091417E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F821CC41E7E54A00091417E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F821CC61E7E54A00091417E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919A0109CE91D2B7CD1C12A7 /* Pods-ImitateBaiSi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6NC35YNKT4;
+				INFOPLIST_FILE = ImitateBaiSi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYH.ImitateBaiSi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F821CC71E7E54A00091417E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185F6537E0239C36B2C680CA /* Pods-ImitateBaiSi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6NC35YNKT4;
+				INFOPLIST_FILE = ImitateBaiSi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYH.ImitateBaiSi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F821CA61E7E549F0091417E /* Build configuration list for PBXProject "ImitateBaiSi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F821CC31E7E54A00091417E /* Debug */,
+				8F821CC41E7E54A00091417E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F821CC51E7E54A00091417E /* Build configuration list for PBXNativeTarget "ImitateBaiSi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F821CC61E7E54A00091417E /* Debug */,
+				8F821CC71E7E54A00091417E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F821CA31E7E549F0091417E /* Project object */;
+}
